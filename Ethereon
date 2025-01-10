@@ -2614,7 +2614,7 @@ DevTab:AddToggle({
     end
 })
 
-OrionLib:MakeNotification({Name = "Welcome", Content = "❤️ Ethereon Owner Mode ❤️  ", Image = "rbxassetid://4483345998", Time = 5})
+OrionLib:MakeNotification({Name = "Welcome", Content = "💤 Ethereon Owner Mode 💤 ", Image = "rbxassetid://4483345998", Time = 5})
 OrionLib:Init()
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local DefaultChatSystemChatEvents = ReplicatedStorage:WaitForChild("DefaultChatSystemChatEvents")
@@ -2710,7 +2710,7 @@ PrivateProperties = {
 local DefaultChatSystemChatEvents = ReplicatedStorage:WaitForChild("DefaultChatSystemChatEvents")
 local SayMessageRequest = DefaultChatSystemChatEvents:WaitForChild("SayMessageRequest")
 
-SayMessageRequest:FireServer(" ( Owner Mode )  ", "All")
+SayMessageRequest:FireServer(" 💢 Owner Mode 💢  ", "All")
 local UserInputService = game:GetService("UserInputService")
 local player = game.Players.LocalPlayer
 local mouse = player:GetMouse()
