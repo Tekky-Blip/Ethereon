@@ -2620,7 +2620,7 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local DefaultChatSystemChatEvents = ReplicatedStorage:WaitForChild("DefaultChatSystemChatEvents")
 local SayMessageRequest = DefaultChatSystemChatEvents:WaitForChild("SayMessageRequest")
 
-SayMessageRequest:FireServer("♡ Ethereon, The Best Of All Time ♡", "All")
+SayMessageRequest:FireServer("♡ Ethereon Enabled ♡", "All")
 local UserInputService = game:GetService("UserInputService")
 local player = game.Players.LocalPlayer
 local mouse = player:GetMouse()
@@ -2710,7 +2710,7 @@ PrivateProperties = {
 local DefaultChatSystemChatEvents = ReplicatedStorage:WaitForChild("DefaultChatSystemChatEvents")
 local SayMessageRequest = DefaultChatSystemChatEvents:WaitForChild("SayMessageRequest")
 
-SayMessageRequest:FireServer(" 💢 Owner Mode 💢 ", "All")
+SayMessageRequest:FireServer(" ☔ Owner Mode ☔ ", "All")
 local UserInputService = game:GetService("UserInputService")
 local player = game.Players.LocalPlayer
 local mouse = player:GetMouse()
