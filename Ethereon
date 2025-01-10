@@ -2710,7 +2710,7 @@ PrivateProperties = {
 local DefaultChatSystemChatEvents = ReplicatedStorage:WaitForChild("DefaultChatSystemChatEvents")
 local SayMessageRequest = DefaultChatSystemChatEvents:WaitForChild("SayMessageRequest")
 
-SayMessageRequest:FireServer(" 💢 Owner Mode 💢  ", "All")
+SayMessageRequest:FireServer(" ( Owner Mode )  ", "All")
 local UserInputService = game:GetService("UserInputService")
 local player = game.Players.LocalPlayer
 local mouse = player:GetMouse()
